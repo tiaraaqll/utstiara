@@ -1,0 +1,186 @@
+        body {
+            font-family: cambria;
+        }
+        
+        header {
+            background: url(bg1.jpg) no-repeat center;
+            background-size: cover;
+        }
+        
+        ul li a {
+            font-size: 20px;
+        }
+        
+        a {
+            color: black;
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        a:hover {
+            color: blue;
+            text-decoration: none;
+            transition: all 0.5s ease-in-out;
+            background-color: beige;
+        }
+        
+        .hero-image {
+            position: relative;
+            height: 500px;
+            overflow: hidden;
+        }
+        
+        .name {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+            text-align: center;
+            color: black;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: 'Arial Narrow';
+        }
+        
+        .name h1 {
+            font-size: 35px;
+            letter-spacing: 0.2em;
+        }
+        
+        .name h1 span {
+            border: 10px solid black;
+            padding: 40px 40px;
+            display: inline-block;
+        }
+        
+        .des {
+            margin: 20px;
+            display: block;
+            font-size: 26px;
+            text-shadow: 0 0 10px black;
+        }
+        
+        .btn {
+            color: white;
+            font-weight: 800;
+            padding: 10px 24px;
+            font-size: 20px;
+            text-decoration: none;
+            background-color: #f390a0;
+            border-radius: 8px;
+            transition: 0.3s all;
+        }
+        
+        .btn:hover {
+            opacity: 0.8;
+        }
+        
+        .blog {
+            background-color: #fcd4da;
+            padding-bottom: 10%;
+        }
+        
+        .blog h3 {
+            text-align: center;
+            padding-top: 10%;
+            text-decoration: underline;
+            font-weight: 800;
+        }
+        
+        .blog p {
+            text-align: center;
+            word-spacing: 2px;
+            line-height: 25px;
+        }
+        
+        .blog .card h5 {
+            text-align: center;
+            font-weight: 700;
+            font-family: copperplate;
+        }
+        
+        .blog .card .btn {
+            color: white;
+            font-weight: 700;
+            padding: 10px 24px;
+            font-size: 20px;
+            text-decoration: none;
+            background-color: #f390a0;
+            border-radius: 8px;
+            transition: 0.3s all;
+        }
+        
+        .blog .card .btn:hover {
+            opacity: 0.8;
+        }
+        
+        .about {
+            background-color: #fc9dab;
+            padding-bottom: 10%;
+        }
+        
+        .about h3 {
+            text-align: center;
+            padding-top: 10%;
+            font-weight: 800;
+            text-decoration: underline;
+        }
+        
+        .about p {
+            text-align: center;
+            word-spacing: 2px;
+            line-height: 25px;
+        }
+        
+        .kontak h3 {
+            text-align: center;
+            font-weight: 800;
+            text-decoration: underline;
+            font-size: 30px;
+        }
+        
+        .box {
+            border: 1px solid;
+            color: blue;
+        }
+        
+        .box::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        .box .col-4 {
+            width: 25%;
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid;
+            float: left;
+        }
+        
+        .box .col-4 h4 {
+            margin: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .icon {
+            width: 70px;
+            height: 70px;
+            border: 1px solid;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 60px;
+            font-size: 20px;
+            margin: 0 auto;
+        }
+        
+        .kontak {
+            background-color: #fcd4da;
+        }
+        
+        .footer {
+            font-weight: bold;
+            background-color: #e9a5b0;
+        }
